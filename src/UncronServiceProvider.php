@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Tyea\Uncron;
 
 use Illuminate\Support\ServiceProvider;
 

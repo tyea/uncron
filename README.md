@@ -8,8 +8,8 @@ It's designed for use in a containerised environment, but works well with Superv
 
 ## Requirements
 
-* >= Laravel 5.5
-* >= PHP 7.0
+* PHP >= 7.0
+* Laravel >= 5.5
 
 ## Installation
 
