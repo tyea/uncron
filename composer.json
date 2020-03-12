@@ -1,0 +1,33 @@
+{
+	"name": "tyea/uncron",
+	"description": "A Laravel package for running scheduled commands without Cron",
+	"keywords": [
+		"tyea",
+		"uncron",
+		"laravel",
+		"scheduled",
+		"commands",
+		"cron"
+	],
+	"homepage": "https://github.com/tyea/uncron",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Tom Yeadon",
+			"homepage": "http://www.tomyeadon.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Tyea\\Uncron\\": "src/"
+		}
+	},
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Tyea\\Uncron\\UncronServiceProvider"
+			]
+		}
+	}
+}
