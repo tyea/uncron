@@ -7,9 +7,9 @@ use Illuminate\Console\Command;
 class ScheduleRepeatCommand extends Command
 {
 	protected $signature = "schedule:repeat";
-	
+
 	protected $description = "Repeatedly run the scheduled commands";
-	
+
 	public function handle()
 	{
 		while (true) {

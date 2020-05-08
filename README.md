@@ -4,6 +4,8 @@
 
 Uncron is a Laravel package for running scheduled commands without Cron.
 
+It allows you to run your scheduled tasks in the foreground, just like queued tasks.
+
 ## Requirements
 
 * PHP >= 7.0
