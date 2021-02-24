@@ -7,7 +7,8 @@
 		"laravel",
 		"scheduled",
 		"commands",
-		"cron"
+		"cron",
+		"jobs"
 	],
 	"homepage": "https://github.com/tyea/uncron",
 	"license": "BSD-3-Clause",
